@@ -15,14 +15,14 @@ function prod(a, b) {
 }
 
 function answer() {
-  return 42;
+  return 44;
 }
 
 function digital_root(n) {
   return (n-1)%9+1;
 }
-function sum42(a, b) {
-  return a + b + 42;
+function sum44(a, b) {
+  return a + b + 44;
 }
 
 function anomalyCode(x) {
@@ -33,7 +33,7 @@ module.exports = {
   sum: sum,
   sub: sub,
   prod: prod,
-  sum42: sum42,
+  sum44: sum44,
   digital_root: digital_root,
   sayHelloTo: sayHelloTo,
   answer: answer,
