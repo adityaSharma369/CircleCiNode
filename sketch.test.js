@@ -1,4 +1,4 @@
-const { sum, sub, prod, digital_root, sum44, sayHelloTo, anomalyCode } = require('./sketch');
+const { sum, sub, prod, digital_root, sum42, sayHelloTo, anomalyCode } = require('./sketch');
 
 // test('adds 1 + 2 to equal 3', () => {
 //   expect(sum(1, 2)).toBe(3);
@@ -58,12 +58,12 @@ test('digital root of 265 should equal 4', () => {
   expect(digital_root(265)).toBe(4);
 })
 
-test('Sum44 function exists', () => {
-  expect(sum44).toBeDefined();
+test('Sum42 function exists', () => {
+  expect(sum42).toBeDefined();
 });
 
-test('Sum44 3 + 1 should be 48', () => {
-  expect(sum44(3, 1)).toBe(48);
+test('Sum42 3 + 1 should be 46', () => {
+  expect(sum42(3, 1)).toBe(46);
 });
 
 test('Sub function exists', () => {
